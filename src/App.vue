@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <vue-tree-transfer></vue-tree-transfer>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import VueTreeTransfer from '@/components/vue-tree-transfer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    VueTreeTransfer
   }
 }
 </script>
